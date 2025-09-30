@@ -58,15 +58,15 @@ export default function Home() {
       </div>
 
       <div className='flex justify-center mt-20 mb-20'>
-        <img className="w-8 mx-4" src="img1" alt="Component" />
-        <img className='w-8 mx-4' src="img2" alt="Default" />
-        <img className='w-8 mx-4' src="img3" alt="Firebase" />
-        <img className='w-8 mx-4' src="img4" alt="Outline" />
-        <img className='w-8 mx-4' src="img5" alt="spring" />
-        <img className='w-8 mx-4' src="img6" alt="symbol-1" />
-        <img className='w-8 mx-4' src="img7" alt="symbol" />
-        <img className='w-8 mx-4' src="img8" alt="Union" />
-        <img className='w-8 mx-4' src="img9" alt="Vector" />
+        <img className="w-8 mx-4" src={img1} alt="img1" />
+        <img className="w-8 mx-4" src={img2} alt="img2" />
+        <img className="w-8 mx-4" src={img3} alt="img3" />
+        <img className="w-8 mx-4" src={img4} alt="img4" />
+        <img className="w-8 mx-4" src={img5} alt="img5" />
+        <img className="w-8 mx-4" src={img6} alt="img6" />
+        <img className="w-8 mx-4" src={img7} alt="img7" />
+        <img className="w-8 mx-4" src={img8} alt="img8" />
+        <img className="w-8 mx-4" src={img9} alt="img9" />
       </div>
 
     </>
